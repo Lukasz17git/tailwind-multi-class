@@ -1,5 +1,11 @@
 # tailwind-multi-class
 
+## 1.0.8
+
+### Patch Changes
+
+- fixed word by dots regex so it can match nested js objects
+
 ## 1.0.7
 
 ### Patch Changes
