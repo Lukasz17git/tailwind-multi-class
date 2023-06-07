@@ -56,7 +56,7 @@ export const twTransform = (classNameFunction: (...args: any[]) => string, funct
          return replacedContent
 
       } catch (errorParsing) {
-         console.error(`There is an error in the arguments provided to "${functionName}": ' + ${extractedArgument}`)
+         console.error(`There is an error in the arguments provided to "${functionName}": '\n\n Extracted: ${extractedArgument} \n\n WithoutStuff: ${argumentWithoutTernaryAndOrNullish}`)
          return parsedContent;
       }
    }, content);

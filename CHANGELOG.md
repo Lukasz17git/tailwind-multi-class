@@ -1,5 +1,12 @@
 # tailwind-multi-class
 
+## 1.0.7
+
+### Patch Changes
+
+- fixed some regex issues and improved error log
+- 79c81de: testing, last test?
+
 ## 1.0.6
 
 ### Patch Changes
