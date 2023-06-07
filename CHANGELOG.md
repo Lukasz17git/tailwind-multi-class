@@ -1,5 +1,11 @@
 # tailwind-multi-class
 
+## 1.0.7
+
+### Patch Changes
+
+- 79c81de: testing, last test?
+
 ## 1.0.6
 
 ### Patch Changes
