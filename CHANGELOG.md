@@ -1,5 +1,11 @@
 # tailwind-multi-class
 
+## 1.0.11
+
+### Patch Changes
+
+- README.md
+
 ## 1.0.10
 
 ### Patch Changes
