@@ -1,5 +1,11 @@
 # tailwind-multi-class
 
+## 1.0.3
+
+### Patch Changes
+
+- 035847f: testing changeset
+
 ## 1.0.2
 
 ### Patch Changes
