@@ -1,5 +1,11 @@
 # tailwind-multi-class
 
+## 1.0.9
+
+### Patch Changes
+
+- Fixed tw function and added some tests for this function
+
 ## 1.0.8
 
 ### Patch Changes
