@@ -45,7 +45,8 @@ export const twTransform = (classNameFunction: (...args: any[]) => string, funct
       const startingArgumentIndex = matchedValue.index as number + matchedValue[0].length;
 
       const extractedArgument = extractArgument(startingArgumentIndex, matchedValue.input as string)
-      const argumentWithoutAndOrNullish = removeAndOrNullish(extractedArgument)
+      const argumentWithoutTemplateVariables = removeTemplateVariables(extractedArgument)
+      const argumentWithoutAndOrNullish = removeAndOrNullish(argumentWithoutTemplateVariables)
       const argumentWithoutTernaryAndOrNullish = removeTernaries(argumentWithoutAndOrNullish)
       //add a function to remove comments?
 
@@ -83,6 +84,11 @@ const extractArgument = (initialIndex: number, content: string) => {
 
    return content.slice(initialIndex, content.length)
 }
+
+const regexPatternToRemoveVariablesInTemplateLiterals = /\${.*?}/gis
+
+
+const removeTemplateVariables = (extractedArgument: string) => extractedArgument.replace(regexPatternToRemoveVariablesInTemplateLiterals, '').trim()
 
 const removeAndOrNullish = (extractedArgument: string) => extractedArgument.replace(regexPatternToRemoveAndOrNullish, '').trim()
 
