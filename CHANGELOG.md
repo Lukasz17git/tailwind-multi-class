@@ -1,5 +1,11 @@
 # tailwind-multi-class
 
+## 1.0.10
+
+### Patch Changes
+
+- improved parsing detection and added little readme.md
+
 ## 1.0.9
 
 ### Patch Changes
