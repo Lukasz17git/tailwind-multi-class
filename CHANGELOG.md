@@ -1,5 +1,12 @@
 # tailwind-multi-class
 
+## 1.0.5
+
+### Patch Changes
+
+- dbeb4f1: hi?
+- dbeb4f1: still testing changeset
+
 ## 1.0.4
 
 ### Patch Changes
