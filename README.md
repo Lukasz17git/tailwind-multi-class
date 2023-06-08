@@ -10,7 +10,7 @@ An easy way to write Tailwind CSS classes in multiples lines, either as strings 
 - Accepts any ammount of arguments.
 - Accepts any type of arguments.
 - Accepts any type of expressions, like:
-      - &&, ||, ??, Ternary Operator
+  - &&, ||, ??, Ternary Operator
 - Supports Single quotes, Double quotes and Backticks.
 - Accepts functions, equations, and so on.
 - Multiline support.
