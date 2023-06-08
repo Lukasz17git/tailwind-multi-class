@@ -1,6 +1,5 @@
 // REGEX DEFINITIONS //
-const wordWithPosibleNegation = /!*[\.\w]*/
-const functionOrParentheses = /(\w*\(.*?\))/
+const anyWordFunctionOrExpresion = /(!*\w*\(.*?\)|!*[\.\w]+)/
 const anySpace = /\s*/
 const andOrNullish = /(&&|\|{2}|\?{2})/
 const questionMark = /\?/
@@ -9,15 +8,13 @@ const rigthTernaryMatch = /(?<quote2>['"`])(?<rightContent>.*?)\k<quote2>/
 const doubleQuoteTernary = /\s*:\s*/
 
 const regexPatternToRemoveAndOrNullish = new RegExp(
-   functionOrParentheses.source +
-   wordWithPosibleNegation.source +
+   anyWordFunctionOrExpresion.source +
    anySpace.source +
    andOrNullish.source,
    "gis")
 
 const regexPatternToRemoveTernary = new RegExp(
-   functionOrParentheses.source +
-   wordWithPosibleNegation.source +
+   anyWordFunctionOrExpresion.source +
    anySpace.source +
    questionMark.source +
    anySpace.source +

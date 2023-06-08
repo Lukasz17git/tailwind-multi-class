@@ -12,9 +12,10 @@ Easy, performant and versatile way to write tailwind classes in multiples lines,
       { dark: (pageIndex === index) ? 'bg-pink-300' : 'bg-orange-300' }
    )}
 />
+// Injected classes: rounded-md w-40 h-10 p-4 bg-opacity-50 bg-pink-500 bg-orange-500 bg-pink-300 bg-orange-300
 ```
 
-### Setup:
+### Setup
 
 ```js
 // file = tailwind.config.js
@@ -31,7 +32,7 @@ export default {
 }
 ```
 
-### What you can:
+### What you can
 
 - Any ammount of arguments.
 - Accepts any type of arguments.
@@ -40,7 +41,7 @@ export default {
 - Multiline support.
 - Nested variant key support.
 
-### Rules:
+### Rules
 
 - Expresions have to be written between parentheses.
 - Cant use ternaries after ternaries (A ? B ? C : D).

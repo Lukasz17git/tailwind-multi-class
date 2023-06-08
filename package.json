@@ -1,6 +1,6 @@
 {
    "name": "tailwind-multi-class",
-   "version": "1.0.11",
+   "version": "1.0.12",
    "description": "Package to write tailwind css classes in multiline format with support for css variants as object keys",
    "keywords": [
       "tailwind-multi-class",

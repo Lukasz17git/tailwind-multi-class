@@ -1,5 +1,11 @@
 # tailwind-multi-class
 
+## 1.0.12
+
+### Patch Changes
+
+- regex match impovement and readme
+
 ## 1.0.11
 
 ### Patch Changes
